@@ -3,7 +3,7 @@
 // the balls getting stuck in walls probably needs to be taken care of in the particle class. i think what is currently happening is the ball gets stuck in the wall
 // , then gets scooted out but then registers a collision and reverses direction upon which it is scooted back out and then collides and comes back to the wall.
 // Also the momentum conservation thing. the creation fusion products are still hardwired and do not conserve momentum.
-
+//change
 
 var ctx = document.getElementById("numjs_test");
 //There are two ctx's here denoted ctxm to alert to the differences. ctx.getContext("2d") is as you expect
